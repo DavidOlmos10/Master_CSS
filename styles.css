@@ -1,9 +1,33 @@
-body {
-    background: cornsilk;
+@font-face {
+    font-family: SourceSerifPro;
+    src: url(Fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf);
 }
 
-h1 {
-    color:red;
-    font-size: 50px;
-    text-decoration: underline;
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;   /*Permite poner la letra en mayuscula o en minuscula */
+    font-size: 45px;
+
+     /*Colores del sistema */
+     color: mediumpurple;
+      /*Colores hexadecimales */
+      color: #cccc;
+       /*Colores RGB */ 
+       color: rgb(255, 225, 1087);
+    /*Colores RGBA */
+        color: rgba(255, 225, 107, 0.5);
+}
+
+h3{
+    font-family: SourceSerifPro, "Comic Sans MS";
+    font-size: 35px;
+    font-weight: lighter;
+    color: olive;
+}
+
+p{
+    font-family:sans-serif;
+    font-size: 18px;
+    font-weight: bold;  /*Grosor de la letra */
 }
